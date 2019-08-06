@@ -4,14 +4,13 @@
     <title>Data</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <!-- <style></style> -->
 </head>
 
 
 <body>
-<div class="container"> <!-- Container 1 -->
 <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container"> <!-- Container 1 -->
     <a class="navbar-brand" href="index.html">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,7 +46,10 @@
     <div class="row h-50 align-items-center"></div>
   </div>
 </div>
+</div> <!-- Container 1 End -->
 
+
+<div class="container"> <!-- Container 2 -->
 <!-- New Row -->
 <div class="row">
 <!-- Visualizations Card -->
@@ -65,12 +67,13 @@
 <div class="col-lg-9">
   <div class="card">
     <div class="card-body">
-      <h2>Data</h2>
+      <h2>Match Data</h2>
+      <p class="card-text">Table of data used in analysis</p>
 
       <!-- Table -->
       <div style="height:650px; overflow:auto;">
-        <table class="table table-active">
-          <thead>
+        <table class="table table-striped">
+          <thead class="thead-dark th">
             <tr>
               <th>Opposition Name</th>
               <th>Date</th>
@@ -80,11 +83,8 @@
               <th>Location</th>
               <th>Opposition Debutants</th>
               <th>Debutants</th>
-              <th>Opposition tries in last 5 games</th>
-              <th>Tries in last 5 games</th>
               <th>Opposition Rating</th>
               <th>Rating</th>
-              <th>Games since last loss</th>
             </tr>
           </thead>
           <tbody>
@@ -97,11 +97,8 @@
               <td>Melbourne</td>
               <td>0</td>
               <td>1</td>
-              <td>9</td>
-              <td>28</td>
               <td>65.62</td>
               <td>89.80</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Tonga</td>
@@ -112,11 +109,8 @@
               <td>Brisbane</td>
               <td>1</td>
               <td>1</td>
-              <td>13</td>
-              <td>31</td>
               <td>70.08</td>
               <td>89.80</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -127,11 +121,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>37</td>
               <td>76.92</td>
               <td>89.80</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -142,11 +133,8 @@
               <td>Melbourne</td>
               <td>0</td>
               <td>0</td>
-              <td>28</td>
-              <td>44</td>
               <td>81.84</td>
               <td>89.80</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -157,11 +145,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>41</td>
-              <td>45</td>
               <td>86.20</td>
               <td>90.41</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>France</td>
@@ -172,11 +157,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>21</td>
-              <td>35</td>
               <td>84.66</td>
               <td>88.17</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>England</td>
@@ -187,11 +169,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>3</td>
-              <td>17</td>
-              <td>31</td>
               <td>90.56</td>
               <td>90.12</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>England</td>
@@ -202,11 +181,8 @@
               <td>Auckland</td>
               <td>2</td>
               <td>1</td>
-              <td>10</td>
-              <td>21</td>
               <td>89.44</td>
               <td>91.23</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -217,11 +193,8 @@
               <td>Hamilton</td>
               <td>1</td>
               <td>1</td>
-              <td>48</td>
-              <td>18</td>
               <td>78.59</td>
               <td>92.01</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Pacific Is</td>
@@ -232,11 +205,8 @@
               <td>North Shore City</td>
               <td>2</td>
               <td>1</td>
-              <td>2</td>
-              <td>20</td>
               <td>69.00</td>
               <td>92.31</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -247,11 +217,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>21</td>
-              <td>25</td>
               <td>87.94</td>
               <td>92.01</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -262,11 +229,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>20</td>
               <td>83.02</td>
               <td>92.31</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -277,11 +241,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>21</td>
-              <td>18</td>
               <td>87.89</td>
               <td>92.31</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -292,11 +253,8 @@
               <td>Johannesburg</td>
               <td>0</td>
               <td>0</td>
-              <td>19</td>
-              <td>13</td>
               <td>82.79</td>
               <td>91.16</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -307,11 +265,8 @@
               <td>Rome</td>
               <td>1</td>
               <td>4</td>
-              <td>15</td>
-              <td>10</td>
               <td>72.32</td>
               <td>89.63</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -322,11 +277,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>2</td>
-              <td>24</td>
-              <td>13</td>
               <td>76.94</td>
               <td>89.63</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>France</td>
@@ -337,11 +289,8 @@
               <td>Stade de France</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>15</td>
               <td>84.94</td>
               <td>89.66</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Fiji</td>
@@ -352,11 +301,8 @@
               <td>North Shore City</td>
               <td>1</td>
               <td>4</td>
-              <td>18</td>
-              <td>19</td>
               <td>73.27</td>
               <td>90.90</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -367,11 +313,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>34</td>
               <td>80.56</td>
               <td>90.90</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -382,11 +325,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>34</td>
               <td>80.56</td>
               <td>90.90</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -397,11 +337,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>1</td>
-              <td>6</td>
-              <td>30</td>
               <td>80.56</td>
               <td>90.90</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -412,11 +349,8 @@
               <td>Cape Town</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>32</td>
               <td>87.41</td>
               <td>90.90</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -427,11 +361,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>26</td>
-              <td>28</td>
               <td>87.49</td>
               <td>89.85</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -442,11 +373,8 @@
               <td>Dunedin</td>
               <td>0</td>
               <td>0</td>
-              <td>7</td>
-              <td>16</td>
               <td>89.50</td>
               <td>91.45</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -457,11 +385,8 @@
               <td>Auckland</td>
               <td>3</td>
               <td>1</td>
-              <td>11</td>
-              <td>18</td>
               <td>84.85</td>
               <td>91.95</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -472,11 +397,8 @@
               <td>Millennium Stadium</td>
               <td>2</td>
               <td>3</td>
-              <td>30</td>
-              <td>17</td>
               <td>83.08</td>
               <td>91.95</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -487,11 +409,8 @@
               <td>Lansdowne Road</td>
               <td>2</td>
               <td>2</td>
-              <td>15</td>
-              <td>17</td>
               <td>82.14</td>
               <td>92.57</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>England</td>
@@ -502,11 +421,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>21</td>
               <td>83.64</td>
               <td>92.96</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -517,11 +433,8 @@
               <td>Murrayfield</td>
               <td>0</td>
               <td>1</td>
-              <td>15</td>
-              <td>20</td>
               <td>73.52</td>
               <td>93.32</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -532,11 +445,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>3</td>
-              <td>12</td>
-              <td>20</td>
               <td>82.73</td>
               <td>93.32</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -547,11 +457,8 @@
               <td>Auckland</td>
               <td>2</td>
               <td>1</td>
-              <td>12</td>
-              <td>19</td>
               <td>82.73</td>
               <td>93.32</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -562,11 +469,8 @@
               <td>Buenos Aires</td>
               <td>0</td>
               <td>1</td>
-              <td>14</td>
-              <td>17</td>
               <td>76.76</td>
               <td>93.32</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -577,11 +481,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>0</td>
-              <td>20</td>
-              <td>15</td>
               <td>85.59</td>
               <td>93.32</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -592,11 +493,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>17</td>
               <td>85.89</td>
               <td>93.32</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -607,11 +505,8 @@
               <td>Brisbane</td>
               <td>0</td>
               <td>0</td>
-              <td>22</td>
-              <td>15</td>
               <td>86.88</td>
               <td>93.32</td>
-              <td>13</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -622,11 +517,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>13</td>
               <td>86.89</td>
               <td>93.98</td>
-              <td>14</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -637,11 +529,8 @@
               <td>Pretoria</td>
               <td>3</td>
               <td>0</td>
-              <td>6</td>
-              <td>13</td>
               <td>85.22</td>
               <td>93.98</td>
-              <td>15</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -652,11 +541,8 @@
               <td>Rustenberg</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>15</td>
               <td>84.58</td>
               <td>94.62</td>
-              <td>16</td>
             </tr>
             <tr>
               <td>England</td>
@@ -667,11 +553,8 @@
               <td>Twickenham</td>
               <td>3</td>
               <td>1</td>
-              <td>4</td>
-              <td>13</td>
               <td>79.64</td>
               <td>92.91</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>France</td>
@@ -682,11 +565,8 @@
               <td>Lyon</td>
               <td>0</td>
               <td>0</td>
-              <td>23</td>
-              <td>15</td>
               <td>87.52</td>
               <td>92.91</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>France</td>
@@ -697,11 +577,8 @@
               <td>Stade de France</td>
               <td>1</td>
               <td>0</td>
-              <td>18</td>
-              <td>21</td>
               <td>86.38</td>
               <td>94.05</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -712,11 +589,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>22</td>
-              <td>20</td>
               <td>76.87</td>
               <td>94.59</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>France</td>
@@ -727,11 +601,8 @@
               <td>Auckland</td>
               <td>11</td>
               <td>1</td>
-              <td>15</td>
-              <td>20</td>
               <td>85.60</td>
               <td>94.59</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>France</td>
@@ -742,11 +613,8 @@
               <td>Wellington</td>
               <td>3</td>
               <td>0</td>
-              <td>11</td>
-              <td>23</td>
               <td>85.60</td>
               <td>94.59</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Canada</td>
@@ -757,11 +625,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>2</td>
-              <td>27</td>
-              <td>28</td>
               <td>70.81</td>
               <td>94.59</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -772,11 +637,8 @@
               <td>Durban</td>
               <td>0</td>
               <td>0</td>
-              <td>22</td>
-              <td>31</td>
               <td>85.83</td>
               <td>94.59</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -787,11 +649,8 @@
               <td>Melbourne</td>
               <td>0</td>
               <td>0</td>
-              <td>21</td>
-              <td>31</td>
               <td>84.76</td>
               <td>95.01</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -802,11 +661,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>28</td>
               <td>84.82</td>
               <td>93.29</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -817,11 +673,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>26</td>
               <td>87.08</td>
               <td>93.29</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -832,11 +685,8 @@
               <td>Marseille</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>18</td>
               <td>75.07</td>
               <td>93.37</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Portugal</td>
@@ -847,11 +697,8 @@
               <td>Lyon</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>19</td>
               <td>62.11</td>
               <td>93.37</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -862,11 +709,8 @@
               <td>Murrayfield</td>
               <td>2</td>
               <td>0</td>
-              <td>22</td>
-              <td>33</td>
               <td>74.88</td>
               <td>93.37</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Romania</td>
@@ -877,11 +721,8 @@
               <td>Toulouse</td>
               <td>1</td>
               <td>0</td>
-              <td>7</td>
-              <td>37</td>
               <td>66.35</td>
               <td>93.37</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>France</td>
@@ -892,11 +733,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>28</td>
-              <td>47</td>
               <td>84.59</td>
               <td>93.37</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -907,11 +745,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>2</td>
-              <td>9</td>
-              <td>48</td>
               <td>77.26</td>
               <td>89.61</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>England</td>
@@ -922,11 +757,8 @@
               <td>Auckland</td>
               <td>3</td>
               <td>2</td>
-              <td>8</td>
-              <td>39</td>
               <td>83.37</td>
               <td>89.61</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>England</td>
@@ -937,11 +769,8 @@
               <td>Christchurch</td>
               <td>3</td>
               <td>2</td>
-              <td>9</td>
-              <td>27</td>
               <td>83.26</td>
               <td>89.72</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -952,11 +781,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>26</td>
               <td>90.82</td>
               <td>89.80</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -967,11 +793,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>2</td>
-              <td>18</td>
-              <td>14</td>
               <td>90.02</td>
               <td>90.61</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -982,11 +805,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>13</td>
               <td>86.18</td>
               <td>89.25</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -997,11 +817,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>14</td>
               <td>87.19</td>
               <td>88.24</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1012,11 +829,8 @@
               <td>Cape Town</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>14</td>
               <td>90.08</td>
               <td>89.13</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Samoa</td>
@@ -1027,11 +841,8 @@
               <td>New Plymouth</td>
               <td>5</td>
               <td>0</td>
-              <td>14</td>
-              <td>12</td>
               <td>72.56</td>
               <td>91.22</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1042,11 +853,8 @@
               <td>Brisbane</td>
               <td>1</td>
               <td>0</td>
-              <td>11</td>
-              <td>26</td>
               <td>86.53</td>
               <td>91.22</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1057,11 +865,8 @@
               <td>Hong Kong</td>
               <td>1</td>
               <td>2</td>
-              <td>12</td>
-              <td>29</td>
               <td>85.70</td>
               <td>92.06</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -1072,11 +877,8 @@
               <td>Murrayfield</td>
               <td>0</td>
               <td>3</td>
-              <td>5</td>
-              <td>28</td>
               <td>76.92</td>
               <td>92.42</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1087,11 +889,8 @@
               <td>Croke Park</td>
               <td>0</td>
               <td>0</td>
-              <td>12</td>
-              <td>28</td>
               <td>77.25</td>
               <td>92.42</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1102,11 +901,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>28</td>
               <td>79.58</td>
               <td>92.42</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>England</td>
@@ -1117,11 +913,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>15</td>
               <td>81.12</td>
               <td>92.44</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1132,11 +925,8 @@
               <td>Dunedin</td>
               <td>2</td>
               <td>3</td>
-              <td>14</td>
-              <td>14</td>
               <td>79.95</td>
               <td>92.70</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1147,11 +937,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>14</td>
               <td>81.95</td>
               <td>90.70</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -1162,11 +949,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>5</td>
-              <td>2</td>
-              <td>11</td>
               <td>71.20</td>
               <td>90.70</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1177,11 +961,8 @@
               <td>Auckland</td>
               <td>1</td>
               <td>0</td>
-              <td>15</td>
-              <td>11</td>
               <td>86.33</td>
               <td>90.70</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1192,11 +973,8 @@
               <td>Bloemfontein</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>10</td>
               <td>89.46</td>
               <td>90.96</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1207,11 +985,8 @@
               <td>Durban</td>
               <td>0</td>
               <td>0</td>
-              <td>12</td>
-              <td>8</td>
               <td>90.31</td>
               <td>90.11</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1222,11 +997,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>14</td>
-              <td>7</td>
               <td>85.86</td>
               <td>89.43</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1237,11 +1009,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>7</td>
               <td>90.40</td>
               <td>90.37</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1252,11 +1021,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>1</td>
-              <td>8</td>
-              <td>6</td>
               <td>85.71</td>
               <td>89.07</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1267,11 +1033,8 @@
               <td>Tokyo</td>
               <td>0</td>
               <td>0</td>
-              <td>7</td>
-              <td>8</td>
               <td>85.16</td>
               <td>89.62</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1282,11 +1045,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>1</td>
-              <td>11</td>
-              <td>9</td>
               <td>80.74</td>
               <td>90.17</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -1297,11 +1057,8 @@
               <td>Milan</td>
               <td>0</td>
               <td>3</td>
-              <td>2</td>
-              <td>9</td>
               <td>71.20</td>
               <td>90.53</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>England</td>
@@ -1312,11 +1069,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>9</td>
               <td>81.08</td>
               <td>90.53</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1327,11 +1081,8 @@
               <td>Marseille</td>
               <td>0</td>
               <td>0</td>
-              <td>12</td>
-              <td>8</td>
               <td>83.21</td>
               <td>90.88</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1342,11 +1093,8 @@
               <td>New Plymouth</td>
               <td>2</td>
               <td>6</td>
-              <td>11</td>
-              <td>10</td>
               <td>82.61</td>
               <td>91.68</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1357,11 +1105,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>0</td>
-              <td>11</td>
-              <td>17</td>
               <td>78.57</td>
               <td>91.68</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1372,11 +1117,8 @@
               <td>Hamilton</td>
               <td>1</td>
               <td>1</td>
-              <td>8</td>
-              <td>21</td>
               <td>78.57</td>
               <td>91.68</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1387,11 +1129,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>20</td>
-              <td>22</td>
               <td>89.46</td>
               <td>91.68</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1402,11 +1141,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>19</td>
-              <td>25</td>
               <td>88.74</td>
               <td>92.40</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1417,11 +1153,8 @@
               <td>Melbourne</td>
               <td>1</td>
               <td>0</td>
-              <td>16</td>
-              <td>24</td>
               <td>86.06</td>
               <td>92.73</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1432,11 +1165,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>1</td>
-              <td>12</td>
-              <td>22</td>
               <td>85.11</td>
               <td>93.68</td>
-              <td>13</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1447,11 +1177,8 @@
               <td>Johannesburg</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>19</td>
               <td>86.76</td>
               <td>93.68</td>
-              <td>14</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1462,11 +1189,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>1</td>
-              <td>15</td>
-              <td>20</td>
               <td>86.04</td>
               <td>94.29</td>
-              <td>15</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1477,11 +1201,8 @@
               <td>Hong Kong</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>18</td>
               <td>85.56</td>
               <td>94.77</td>
-              <td>16</td>
             </tr>
             <tr>
               <td>England</td>
@@ -1492,11 +1213,8 @@
               <td>Twickenham</td>
               <td>2</td>
               <td>1</td>
-              <td>6</td>
-              <td>17</td>
               <td>81.82</td>
               <td>92.85</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -1507,11 +1225,8 @@
               <td>Murrayfield</td>
               <td>2</td>
               <td>1</td>
-              <td>2</td>
-              <td>12</td>
               <td>79.81</td>
               <td>93.04</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1522,11 +1237,8 @@
               <td>Lansdowne Road</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>17</td>
               <td>81.05</td>
               <td>93.04</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1537,11 +1249,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>6</td>
-              <td>18</td>
               <td>77.04</td>
               <td>93.19</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Fiji</td>
@@ -1552,11 +1261,8 @@
               <td>Dunedin</td>
               <td>0</td>
               <td>1</td>
-              <td>11</td>
-              <td>21</td>
               <td>71.52</td>
               <td>93.19</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1567,11 +1273,8 @@
               <td>Wellington</td>
               <td>2</td>
               <td>0</td>
-              <td>9</td>
-              <td>26</td>
               <td>85.24</td>
               <td>93.19</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1582,11 +1285,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>30</td>
               <td>86.65</td>
               <td>93.19</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1597,11 +1297,8 @@
               <td>Port Elizabeth</td>
               <td>0</td>
               <td>0</td>
-              <td>6</td>
-              <td>26</td>
               <td>84.08</td>
               <td>93.26</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1612,11 +1309,8 @@
               <td>Brisbane</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>23</td>
               <td>87.75</td>
               <td>91.64</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Tonga</td>
@@ -1627,11 +1321,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>20</td>
               <td>72.48</td>
               <td>90.55</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Japan</td>
@@ -1642,11 +1333,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>18</td>
               <td>71.95</td>
               <td>90.55</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1657,11 +1345,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>25</td>
               <td>83.78</td>
               <td>90.55</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Canada</td>
@@ -1672,11 +1357,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>27</td>
               <td>73.74</td>
               <td>90.62</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -1687,11 +1369,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>38</td>
               <td>80.28</td>
               <td>90.62</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1702,11 +1381,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>26</td>
-              <td>38</td>
               <td>87.21</td>
               <td>90.62</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1717,11 +1393,8 @@
               <td>Auckland</td>
               <td>1</td>
               <td>0</td>
-              <td>9</td>
-              <td>33</td>
               <td>84.79</td>
               <td>91.34</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1732,11 +1405,8 @@
               <td>Auckland</td>
               <td>3</td>
               <td>3</td>
-              <td>13</td>
-              <td>21</td>
               <td>79.85</td>
               <td>91.43</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1747,11 +1417,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>1</td>
-              <td>12</td>
-              <td>21</td>
               <td>79.85</td>
               <td>91.43</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -1762,11 +1429,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>2</td>
-              <td>8</td>
-              <td>10</td>
               <td>79.85</td>
               <td>91.43</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1777,11 +1441,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>17</td>
               <td>87.05</td>
               <td>91.43</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1792,11 +1453,8 @@
               <td>Auckland</td>
               <td>1</td>
               <td>0</td>
-              <td>6</td>
-              <td>18</td>
               <td>86.19</td>
               <td>92.29</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -1807,11 +1465,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>1</td>
-              <td>8</td>
-              <td>18</td>
               <td>79.34</td>
               <td>92.43</td>
-              <td>13</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1822,11 +1477,8 @@
               <td>Dunedin</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>15</td>
               <td>84.20</td>
               <td>92.43</td>
-              <td>14</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -1837,11 +1489,8 @@
               <td>La Plata</td>
               <td>0</td>
               <td>0</td>
-              <td>5</td>
-              <td>16</td>
               <td>79.34</td>
               <td>92.43</td>
-              <td>15</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -1852,11 +1501,8 @@
               <td>Johannesburg</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>14</td>
               <td>85.61</td>
               <td>92.43</td>
-              <td>16</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1867,11 +1513,8 @@
               <td>Brisbane</td>
               <td>1</td>
               <td>0</td>
-              <td>6</td>
-              <td>16</td>
               <td>85.92</td>
               <td>93.35</td>
-              <td>17</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -1882,11 +1525,8 @@
               <td>Murrayfield</td>
               <td>1</td>
               <td>2</td>
-              <td>7</td>
-              <td>15</td>
               <td>77.97</td>
               <td>92.91</td>
-              <td>18</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -1897,11 +1537,8 @@
               <td>Rome</td>
               <td>1</td>
               <td>0</td>
-              <td>11</td>
-              <td>19</td>
               <td>76.61</td>
               <td>92.91</td>
-              <td>19</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -1912,11 +1549,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>5</td>
-              <td>22</td>
               <td>78.95</td>
               <td>92.91</td>
-              <td>20</td>
             </tr>
             <tr>
               <td>England</td>
@@ -1927,11 +1561,8 @@
               <td>Twickenham</td>
               <td>1</td>
               <td>0</td>
-              <td>12</td>
-              <td>18</td>
               <td>81.07</td>
               <td>92.91</td>
-              <td>21</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1942,11 +1573,8 @@
               <td>Auckland</td>
               <td>4</td>
               <td>1</td>
-              <td>6</td>
-              <td>17</td>
               <td>81.59</td>
               <td>90.08</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1957,11 +1585,8 @@
               <td>Christchurch</td>
               <td>2</td>
               <td>1</td>
-              <td>5</td>
-              <td>19</td>
               <td>81.59</td>
               <td>90.08</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>France</td>
@@ -1972,11 +1597,8 @@
               <td>New Plymouth</td>
               <td>1</td>
               <td>3</td>
-              <td>5</td>
-              <td>16</td>
               <td>81.59</td>
               <td>90.08</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -1987,11 +1609,8 @@
               <td>Sydney</td>
               <td>5</td>
               <td>1</td>
-              <td>6</td>
-              <td>13</td>
               <td>86.87</td>
               <td>90.08</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2002,11 +1621,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>1</td>
-              <td>7</td>
-              <td>16</td>
               <td>85.41</td>
               <td>91.55</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2017,11 +1633,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>1</td>
-              <td>6</td>
-              <td>15</td>
               <td>76.41</td>
               <td>91.64</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2032,11 +1645,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>25</td>
-              <td>16</td>
               <td>88.94</td>
               <td>91.64</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2047,11 +1657,8 @@
               <td>La Plata</td>
               <td>0</td>
               <td>0</td>
-              <td>6</td>
-              <td>17</td>
               <td>76.41</td>
               <td>92.07</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2062,11 +1669,8 @@
               <td>Johannesburg</td>
               <td>1</td>
               <td>0</td>
-              <td>19</td>
-              <td>19</td>
               <td>88.84</td>
               <td>92.07</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2077,11 +1681,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>0</td>
-              <td>10</td>
-              <td>18</td>
               <td>84.25</td>
               <td>93.05</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>Japan</td>
@@ -2092,11 +1693,8 @@
               <td>Tokyo</td>
               <td>0</td>
               <td>3</td>
-              <td>12</td>
-              <td>20</td>
               <td>71.98</td>
               <td>93.05</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2107,11 +1705,8 @@
               <td>Stade de France</td>
               <td>1</td>
               <td>0</td>
-              <td>4</td>
-              <td>25</td>
               <td>81.59</td>
               <td>93.05</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>England</td>
@@ -2122,11 +1717,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>23</td>
               <td>86.31</td>
               <td>93.20</td>
-              <td>13</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -2137,11 +1729,8 @@
               <td>Lansdowne Road</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>22</td>
               <td>79.33</td>
               <td>93.81</td>
-              <td>14</td>
             </tr>
             <tr>
               <td>England</td>
@@ -2152,11 +1741,8 @@
               <td>Auckland</td>
               <td>2</td>
               <td>2</td>
-              <td>14</td>
-              <td>20</td>
               <td>85.68</td>
               <td>93.81</td>
-              <td>15</td>
             </tr>
             <tr>
               <td>England</td>
@@ -2167,11 +1753,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>1</td>
-              <td>12</td>
-              <td>17</td>
               <td>85.68</td>
               <td>93.81</td>
-              <td>16</td>
             </tr>
             <tr>
               <td>England</td>
@@ -2182,11 +1765,8 @@
               <td>Hamilton</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>12</td>
               <td>85.68</td>
               <td>93.81</td>
-              <td>17</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2197,11 +1777,8 @@
               <td>Sydney</td>
               <td>1</td>
               <td>0</td>
-              <td>17</td>
-              <td>15</td>
               <td>86.94</td>
               <td>93.81</td>
-              <td>18</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2212,11 +1789,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>12</td>
               <td>86.94</td>
               <td>93.81</td>
-              <td>19</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2227,11 +1801,8 @@
               <td>Napier</td>
               <td>0</td>
               <td>0</td>
-              <td>9</td>
-              <td>15</td>
               <td>73.97</td>
               <td>93.56</td>
-              <td>20</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2242,11 +1813,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>18</td>
               <td>88.42</td>
               <td>93.56</td>
-              <td>21</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2257,11 +1825,8 @@
               <td>La Plata</td>
               <td>0</td>
               <td>1</td>
-              <td>8</td>
-              <td>16</td>
               <td>73.97</td>
               <td>93.75</td>
-              <td>22</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2272,11 +1837,8 @@
               <td>Johannesburg</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>15</td>
               <td>89.27</td>
               <td>93.75</td>
-              <td>23</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2287,11 +1849,8 @@
               <td>Brisbane</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>18</td>
               <td>85.07</td>
               <td>92.60</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>USA</td>
@@ -2302,11 +1861,8 @@
               <td>Chicago</td>
               <td>1</td>
               <td>1</td>
-              <td>15</td>
-              <td>16</td>
               <td>67.30</td>
               <td>93.15</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>England</td>
@@ -2317,11 +1873,8 @@
               <td>Twickenham</td>
               <td>3</td>
               <td>0</td>
-              <td>13</td>
-              <td>24</td>
               <td>85.68</td>
               <td>93.15</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -2332,11 +1885,8 @@
               <td>Murrayfield</td>
               <td>0</td>
               <td>1</td>
-              <td>11</td>
-              <td>26</td>
               <td>78.27</td>
               <td>93.70</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -2347,11 +1897,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>24</td>
               <td>79.94</td>
               <td>93.70</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Samoa</td>
@@ -2362,11 +1909,8 @@
               <td>Apia</td>
               <td>2</td>
               <td>4</td>
-              <td>3</td>
-              <td>26</td>
               <td>75.39</td>
               <td>93.70</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2377,11 +1921,8 @@
               <td>Christchurch</td>
               <td>0</td>
               <td>2</td>
-              <td>23</td>
-              <td>23</td>
               <td>78.23</td>
               <td>93.70</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2392,11 +1933,8 @@
               <td>Johannesburg</td>
               <td>2</td>
               <td>2</td>
-              <td>10</td>
-              <td>16</td>
               <td>87.00</td>
               <td>93.70</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2407,11 +1945,8 @@
               <td>Sydney</td>
               <td>0</td>
               <td>1</td>
-              <td>14</td>
-              <td>16</td>
               <td>85.23</td>
               <td>94.33</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2422,11 +1957,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>16</td>
               <td>86.84</td>
               <td>92.72</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2437,11 +1969,8 @@
               <td>Wembley</td>
               <td>0</td>
               <td>0</td>
-              <td>17</td>
-              <td>16</td>
               <td>78.39</td>
               <td>92.89</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Namibia</td>
@@ -2452,11 +1981,8 @@
               <td>London</td>
               <td>0</td>
               <td>0</td>
-              <td>28</td>
-              <td>17</td>
               <td>61.85</td>
               <td>92.89</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Georgia</td>
@@ -2467,11 +1993,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>7</td>
-              <td>21</td>
               <td>71.35</td>
               <td>92.89</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Tonga</td>
@@ -2482,11 +2005,8 @@
               <td>Newcastle</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>25</td>
               <td>71.60</td>
               <td>92.89</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2497,11 +2017,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>13</td>
-              <td>30</td>
               <td>79.77</td>
               <td>92.89</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2512,11 +2029,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>24</td>
-              <td>34</td>
               <td>86.80</td>
               <td>92.89</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2527,11 +2041,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>23</td>
-              <td>34</td>
               <td>91.75</td>
               <td>93.67</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -2542,11 +2053,8 @@
               <td>Auckland</td>
               <td>1</td>
               <td>2</td>
-              <td>17</td>
-              <td>28</td>
               <td>82.49</td>
               <td>96.10</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -2557,11 +2065,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>26</td>
               <td>82.49</td>
               <td>96.10</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -2572,11 +2077,8 @@
               <td>Dunedin</td>
               <td>0</td>
               <td>3</td>
-              <td>18</td>
-              <td>24</td>
               <td>82.49</td>
               <td>96.10</td>
-              <td>11</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2587,11 +2089,8 @@
               <td>Sydney</td>
               <td>1</td>
               <td>1</td>
-              <td>16</td>
-              <td>21</td>
               <td>84.43</td>
               <td>96.10</td>
-              <td>12</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2602,11 +2101,8 @@
               <td>Wellington</td>
               <td>1</td>
               <td>1</td>
-              <td>13</td>
-              <td>25</td>
               <td>84.23</td>
               <td>96.30</td>
-              <td>13</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2617,11 +2113,8 @@
               <td>Hamilton</td>
               <td>1</td>
               <td>0</td>
-              <td>9</td>
-              <td>26</td>
               <td>81.44</td>
               <td>96.30</td>
-              <td>14</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2632,11 +2125,8 @@
               <td>Christchurch</td>
               <td>1</td>
               <td>0</td>
-              <td>12</td>
-              <td>29</td>
               <td>84.30</td>
               <td>96.30</td>
-              <td>15</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2647,11 +2137,8 @@
               <td>Buenos Aires</td>
               <td>0</td>
               <td>1</td>
-              <td>7</td>
-              <td>30</td>
               <td>80.93</td>
               <td>96.30</td>
-              <td>16</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2662,11 +2149,8 @@
               <td>Durban</td>
               <td>0</td>
               <td>0</td>
-              <td>8</td>
-              <td>29</td>
               <td>85.12</td>
               <td>96.30</td>
-              <td>17</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2677,11 +2161,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>12</td>
-              <td>32</td>
               <td>85.33</td>
               <td>96.57</td>
-              <td>18</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -2692,11 +2173,8 @@
               <td>Chicago</td>
               <td>1</td>
               <td>1</td>
-              <td>18</td>
-              <td>34</td>
               <td>81.67</td>
               <td>96.57</td>
-              <td>19</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -2707,11 +2185,8 @@
               <td>Rome</td>
               <td>1</td>
               <td>2</td>
-              <td>9</td>
-              <td>30</td>
               <td>72.23</td>
               <td>94.57</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -2722,11 +2197,8 @@
               <td>Lansdowne Road</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>34</td>
               <td>83.67</td>
               <td>94.57</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2737,11 +2209,8 @@
               <td>Stade de France</td>
               <td>0</td>
               <td>0</td>
-              <td>14</td>
-              <td>32</td>
               <td>80.13</td>
               <td>94.78</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Samoa</td>
@@ -2752,11 +2221,8 @@
               <td>Auckland</td>
               <td>2</td>
               <td>2</td>
-              <td>7</td>
-              <td>26</td>
               <td>71.25</td>
               <td>94.78</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -2767,11 +2233,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>32</td>
               <td>85.15</td>
               <td>94.78</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -2782,11 +2245,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>1</td>
-              <td>11</td>
-              <td>31</td>
               <td>85.15</td>
               <td>94.78</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Lions</td>
@@ -2797,11 +2257,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>0</td>
-              <td>10</td>
-              <td>21</td>
               <td>85.15</td>
               <td>94.78</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2812,11 +2269,8 @@
               <td>Sydney</td>
               <td>1</td>
               <td>0</td>
-              <td>19</td>
-              <td>20</td>
               <td>84.63</td>
               <td>94.78</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2827,11 +2281,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>0</td>
-              <td>20</td>
-              <td>25</td>
               <td>84.21</td>
               <td>95.21</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2842,11 +2293,8 @@
               <td>New Plymouth</td>
               <td>0</td>
               <td>0</td>
-              <td>16</td>
-              <td>18</td>
               <td>78.00</td>
               <td>95.21</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2857,11 +2305,8 @@
               <td>North Shore City</td>
               <td>0</td>
               <td>0</td>
-              <td>19</td>
-              <td>21</td>
               <td>85.81</td>
               <td>95.21</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -2872,11 +2317,8 @@
               <td>Buenos Aires</td>
               <td>0</td>
               <td>1</td>
-              <td>12</td>
-              <td>29</td>
               <td>77.86</td>
               <td>95.21</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -2887,11 +2329,8 @@
               <td>Cape Town</td>
               <td>1</td>
               <td>0</td>
-              <td>14</td>
-              <td>32</td>
               <td>85.35</td>
               <td>95.21</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -2902,11 +2341,8 @@
               <td>Brisbane</td>
               <td>0</td>
               <td>0</td>
-              <td>21</td>
-              <td>27</td>
               <td>85.59</td>
               <td>95.52</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2917,11 +2353,8 @@
               <td>Stade de France</td>
               <td>6</td>
               <td>0</td>
-              <td>10</td>
-              <td>24</td>
               <td>79.63</td>
               <td>93.83</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>Scotland</td>
@@ -2932,11 +2365,8 @@
               <td>Murrayfield</td>
               <td>2</td>
               <td>0</td>
-              <td>21</td>
-              <td>23</td>
               <td>82.47</td>
               <td>96.83</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Wales</td>
@@ -2947,11 +2377,8 @@
               <td>Millennium Stadium</td>
               <td>0</td>
               <td>0</td>
-              <td>7</td>
-              <td>18</td>
               <td>80.98</td>
               <td>93.99</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2962,11 +2389,8 @@
               <td>Auckland</td>
               <td>0</td>
               <td>1</td>
-              <td>8</td>
-              <td>18</td>
               <td>79.10</td>
               <td>93.99</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2977,11 +2401,8 @@
               <td>Wellington</td>
               <td>1</td>
               <td>0</td>
-              <td>8</td>
-              <td>23</td>
               <td>79.10</td>
               <td>93.99</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>France</td>
@@ -2992,11 +2413,8 @@
               <td>Dunedin</td>
               <td>1</td>
               <td>4</td>
-              <td>7</td>
-              <td>25</td>
               <td>79.10</td>
               <td>93.99</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -3007,11 +2425,8 @@
               <td>Sydney</td>
               <td>2</td>
               <td>1</td>
-              <td>10</td>
-              <td>27</td>
               <td>84.48</td>
               <td>93.99</td>
-              <td>7</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -3022,11 +2437,8 @@
               <td>Auckland</td>
               <td>2</td>
               <td>0</td>
-              <td>11</td>
-              <td>30</td>
               <td>83.96</td>
               <td>94.52</td>
-              <td>8</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -3037,11 +2449,8 @@
               <td>Nelson</td>
               <td>1</td>
               <td>1</td>
-              <td>12</td>
-              <td>31</td>
               <td>77.02</td>
               <td>94.52</td>
-              <td>9</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -3052,11 +2461,8 @@
               <td>Wellington</td>
               <td>0</td>
               <td>0</td>
-              <td>14</td>
-              <td>29</td>
               <td>81.35</td>
               <td>94.52</td>
-              <td>10</td>
             </tr>
             <tr>
               <td>Argentina</td>
@@ -3067,11 +2473,8 @@
               <td>Buenos Aires</td>
               <td>0</td>
               <td>1</td>
-              <td>14</td>
-              <td>31</td>
               <td>79.02</td>
               <td>92.52</td>
-              <td>1</td>
             </tr>
             <tr>
               <td>South Africa</td>
@@ -3082,11 +2485,8 @@
               <td>Pretoria</td>
               <td>0</td>
               <td>0</td>
-              <td>18</td>
-              <td>29</td>
               <td>83.96</td>
               <td>92.52</td>
-              <td>2</td>
             </tr>
             <tr>
               <td>Australia</td>
@@ -3097,11 +2497,8 @@
               <td>Yokohama</td>
               <td>0</td>
               <td>0</td>
-              <td>15</td>
-              <td>27</td>
               <td>82.86</td>
               <td>92.96</td>
-              <td>3</td>
             </tr>
             <tr>
               <td>Japan</td>
@@ -3112,11 +2509,8 @@
               <td>Tokyo</td>
               <td>2</td>
               <td>8</td>
-              <td>18</td>
-              <td>26</td>
               <td>75.24</td>
               <td>92.96</td>
-              <td>4</td>
             </tr>
             <tr>
               <td>England</td>
@@ -3127,11 +2521,8 @@
               <td>Twickenham</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>30</td>
               <td>86.16</td>
               <td>92.96</td>
-              <td>5</td>
             </tr>
             <tr>
               <td>Ireland</td>
@@ -3142,11 +2533,8 @@
               <td>Lansdowne Road</td>
               <td>0</td>
               <td>0</td>
-              <td>14</td>
-              <td>25</td>
               <td>90.12</td>
               <td>93.58</td>
-              <td>6</td>
             </tr>
             <tr>
               <td>Italy</td>
@@ -3157,11 +2545,8 @@
               <td>Rome</td>
               <td>0</td>
               <td>0</td>
-              <td>11</td>
-              <td>20</td>
               <td>72.75</td>
               <td>92.54</td>
-              <td>1</td>
             </tr>
           </tbody>
         </table>
@@ -3170,10 +2555,9 @@
     </div>
   </div>
 </div>
+</div> <!-- Container 2 Close -->
 
 
-
-</div> <!-- Container 1 End -->
 </body>
 </html>
 

@@ -1672,12 +1672,26 @@ pre code {
   color: #919aa1;
 }
 
-.table th,
+/* ---------------------------------- */
+/* LORI  */
+.table th {
+  position: sticky; top: 0;
+}
+
 .table td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
+
+/* ORIGINAL */
+/* .table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+} */
+/* ---------------------------------- */
 
 .table thead th {
   vertical-align: bottom;
@@ -4323,7 +4337,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 1rem; /* Original: 1.5rem 1rem*/
+  padding: 0.5rem 1rem; /* LORI - Original: 1.5rem 1rem*/
 }
 
 .navbar > .container,
@@ -10389,10 +10403,21 @@ th {
   text-transform: uppercase;
 }
 
-.table th,
+/* ------------------------- */
+/* LORI */
+.table th {
+  padding: 1rem;
+}
+.table td {
+  padding: 0.8rem;
+}
+
+/* ORGINAL  */
+/* .table th,
 .table td {
   padding: 1.5rem;
-}
+}*/
+/* ------------------------- */
 
 .table-sm th,
 .table-sm td {
