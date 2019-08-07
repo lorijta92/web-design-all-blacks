@@ -1,5 +1,5 @@
 .bgImage {
-    height: 50vh;
+    height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,57 +11,29 @@
     }
 
 .bgImage2 {
-    height: 50vh;
     background-image: url("https://www.kaieteurnewsonline.com/images/2015/10/The-New-Zealand-team-celebrate-as-Richie-McCaw-of-New.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage3 {
-    height: 50vh;
     background-image: url("https://d3gbf3ykm8gp5c.cloudfront.net/content/uploads/2017/06/17135431/GettyImages-696854582.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage4 {
-    height: 50vh;
     background-image: url("https://resources.stuff.co.nz/content/dam/images/1/l/4/n/s/3/image.gallery.galleryFree.1024x0.1l4nx5.png/1503172599853.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage5 {
-    height: 50vh;
     background-image: url("https://d2u4q3iydaupsp.cloudfront.net/BzDhvL5nhYY4Oif4w5rQ8GvHKUg2ux6PBf1TfmkcqAKUmJf1BE66pfY6gWYlfatDIFLKBEyfAYLdSG7cyAaJXfglJ0Lt2ypVyabFqXirXSnLx1D6GLR9wItRc5d2WknD");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage6 {
-    height: 50vh;
     background-image: url("https://cdn.rugbypass.com/wp/wp-content/uploads/2019/05/Ioane-Smith.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage7 {
-    height: 50vh;
     background-image: url("https://cdn.newsapi.com.au/image/v1/ecada5dc3d881d75af1b04e5d9acefd8");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
 
 .bgImage8 {
-    height: 50vh;
     background-image: url("https://assets.nst.com.my/images/articles/04All_Blacks_1509721016.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }

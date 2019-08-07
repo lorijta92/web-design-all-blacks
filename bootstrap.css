@@ -3298,9 +3298,10 @@ input[type="button"].btn-block {
   color: #919aa1;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #1a1a1a; /* LORI */
+  /* background-color: #fff; ORIGINAL */
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); ORIGINAL */
 }
 
 .dropdown-menu-left {
@@ -3461,7 +3462,8 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #1a1a1a;
+  color: #fff; /* LORI */
+  /* color: #1a1a1a; ORIGINAL */
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3469,8 +3471,10 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
+  /* color: #fff; LORI */
   color: #0d0d0d;
   text-decoration: none;
+  /* background-color: #1a1a1a; LORI */
   background-color: #f8f9fa;
 }
 
