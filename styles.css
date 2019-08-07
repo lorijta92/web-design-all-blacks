@@ -1,9 +1,13 @@
-.bgImage1 {
+.bgImage {
     height: 50vh;
-    background-image: url("https://www.allblacks.com/images/dnaImages/AllBlacks_2017_2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    }
+
+
+.bgImage1 {
+    background-image: url("https://www.allblacks.com/images/dnaImages/AllBlacks_2017_2.png");
     }
 
 .bgImage2 {
