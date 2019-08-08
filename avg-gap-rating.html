@@ -68,7 +68,7 @@
         <a href="results-time.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/total-match-results-pie.png" alt="Match Results Over Time"></a>
         <a href="results-team.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/results-by-opposition-team.png" alt="Match Results by Team"></a>
         <a href="point-gap-team.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/total-point-gap-per-team.png" alt="Total Point Gap per Team"></a>
-        <a href="avg-gap-rating.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/avg-pt-gap-rating.png" alt="Average Point Gap & Rating"></a>
+        <a href="avg-gap-rating.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/avg-pt-gap-rating1.png" alt="Average Point Gap & Rating"></a>
         <a href="point-gap-new-caps.html"><img style="height: 100%; width: 100%; display: block; padding: 15px;" src="Images/point-gap-new-caps.png" alt="Point Gap & New Caps"></a>
     </div>
   </div>
@@ -77,12 +77,16 @@
 <div class="col-lg-9">
   <div class="card">
     <div class="card-body">
-      <h2>Average Point Gap and Rating</h2></br>
-      <h5 class="card-subtitle mb-2 text-muted"><b>Title</b></h5>
-      <img style="height:70%; width: 70%; display:block; float: right;" src="Images/avg-pt-gap-rating.png"/></br>
-      <p class="card-text">Average point gap over time and average game rating over time. 
-          Peak in 2007 - World Cup, first of two back-to-back World Cup wins. Second World Cup win overall, with the first being 1987
-      </p>
+      <h2>Point Gap and Rating</h2></br>
+      <h5 class="card-subtitle mb-2 text-muted"><b>Relationship between point gap and rating over time</b></h5>
+      <img style="height:70%; width: 70%; display:block; float: right;" src="Images/avg-pt-gap-rating1.png"/></br>
+      <p class="card-text"> This plot shows the average point gap of all matches per year compared against the average ratings 
+        of both New Zealand and the opposition side. The assumption is that a larger point gap would result in higher ratings for New Zealand. 
+        As seen, New Zealand's ratings roughly follow the same trajectory as the point gap, sharing some peaks and some dips. However, the two are not 
+        as closely correlated, with a coefficient of only 0.07.</p>
+        <img style="height:70%; width: 70%; display:block; float: left;" src="Images/avg-pt-gap-rating2.png"/></br>
+        <p>What is interesting though, is that the <i>opposition</i> rating is more closely correlated to the point margin than is New Zealand's own ratings 
+        with a coefficient of -0.77. The larger the point gap, the lower the opposition ratings are.</p>
     </div>
   </div>
 </div>
