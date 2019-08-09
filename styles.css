@@ -37,6 +37,6 @@
     background-image: url("Images/Assets/backs_cr.jpg")
     }
 
-img:hover {
+.imgLink:hover {
     outline: solid 2px  #adebeb; 
 }
