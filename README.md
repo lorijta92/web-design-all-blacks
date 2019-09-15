@@ -19,3 +19,5 @@ To visualize the total sum point gap per opposition team, data was grouped by `O
 The last chart used, was a straight-forward scatter plot, showing the relationship between `Debutants` and `Point Gap`. 
 
 Finally, the cleaned data frame was exported as an HTML table using `df.to_html()` to be used in the final webpage. 
+
+**Web Page Design**
