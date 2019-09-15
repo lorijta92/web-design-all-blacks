@@ -11,6 +11,7 @@ Before building out the webpage, I first needed to perform basic data cleaning a
 The next step was to create the charts. The first, was a simple donut chart showing the total match results for the All Blacks. A pie chart was first created, and then a circle was layered on top to create the donut chart. 
 
 The second, would display the match results over time as a stacked bar chart. The data first had to  be grouped by `Year` and `Result`, before then pivoting on `Year` using `df.pivot()`. To plot, tick positions were set and the total score calculated. From the total score, the percentage of wins, draws, and losses were calculated. The wins for each year were plotted first, then the draws (whose bottoms were set to the top of the win bars), and then the losses (whose bottoms were set to the top of the draw bars). This stacked bar process was then repeated to create stacked bar charts for the match results by opposition team
+![results-stacked](https://github.com/lorijta92/web-design-all-blacks/blob/master/Images/results-over-time-stacked.png?raw=true)
 
 Next, I wanted to compare the average game rating (of both New Zealand and opposition teams) to the average point gap over time. The mean was taken for the data grouped by year, and then those results were stored in a data frame. The correlation coefficient was calculated to see if there was any meaningful connection between the categories. Then, simple line charts were plotted as subplots. 
 
