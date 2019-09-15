@@ -22,3 +22,8 @@ The last chart used, was a straight-forward scatter plot, showing the relationsh
 Finally, the cleaned data frame was exported as an HTML table using `df.to_html()` to be used in the final webpage. 
 
 **Web Page Design**
+![landing-page](https://github.com/lorijta92/web-design-all-blacks/blob/master/Images/Assets/landingpage.png?raw=true)
+
+I chose to stick to a simple and clean layout for this webpage, using a Bootstrap theme to create a main framework that each page would use while adjusting the page content as necessary. This main framework included a navbar with a dropdown menu, a main header image with a custom class, and a visualizations column with images linked to each chart’s individual page. The framework also included media queries for the page to be responsive to changing browser sizes. 
+
+The individual visualization pages featured chart(s) and descriptions that answered one of the five questions asked on the home page. The comparisons page displayed all charts available for viewing as well as links to those individual pages, and the data page displayed a scrollable table built with HTML that contained the data used in the analysis. 
